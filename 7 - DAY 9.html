@@ -1,0 +1,158 @@
+<!-- 7.      Design form       -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+     /* background-color: black;    */
+     padding: 50px;
+    }
+     
+    .content{
+        padding: 20px;
+    }
+    .heading{
+        
+        background-color:red;
+        color: white;
+        display: inline-block;
+        /* width: 100px; */
+        font-size: 25px;
+        position: relative;
+        left: 70px;
+    }
+    #border{
+        border: 3px solid black;
+        margin: 10px auto;
+        width: 34%;
+        padding: 10px;
+        padding-top: 3px;
+    }
+    .first{
+        display: inline-block;
+        text-align: left;
+        width: 45%;
+        
+    }
+    .last{
+        display: inline-block;
+        text-align: left;
+        width: 45%;
+    }
+
+    /* This is input border property */
+
+    #line1{
+        border: none;border-bottom: 2px solid black;
+        
+    }
+
+    #line2{
+        border:none;
+        border-bottom: 2px;
+        border-bottom: solid black;
+    }
+
+    #line3{
+        border: none; border-bottom: solid black;
+    }
+
+    #line4{
+        border: none; border-bottom: solid black;
+    }
+
+    #line5{
+        border:none; border-bottom: solid black;
+    }
+
+    #number{
+        border: none; border-bottom: solid black;
+    }
+    .city, .state, .zip{
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+    }
+
+    #line4{
+        width: 70%;
+    }
+    #line5{
+        width: 85%;
+    }
+    #number{
+        width: 85%;
+    }
+</style>
+
+
+
+</head>
+<body>
+    
+<div id="border" > 
+    <div class="heading"  >Yes! I want to subscribe to Mag-O-Zine</div>
+    <div class="content" >
+        <form action="#" >
+            <div class="first" >
+                <input type="text" name="fname" id="line1" value="Alan"><br>
+                <label for="fname">FirstName</label>
+            </div>
+            <div class="last">
+                <input type="text" name="lname" id="line2" value="walker"><br>
+                <label for="lname">LastName</label>
+            </div>
+            <div class="add">
+                <input type="text" name="address" id="line3" value="Home"><br>
+                <label for="address">Address</label>
+
+            </div>
+
+            <div class="city">
+                <input type="text" name="city" id="line4" value="Los angeles"><br>
+                <label for="city">City</label>
+
+            </div>
+            <div class="state">
+                <input type="text" name="state" id="line5" value="Califonia"><br>
+                <label for="state">State</label>
+            </div>
+
+            <div class="zip">
+                <input type="text" name="zip" id="number" value="93657"><br>
+                <label for="zip">Zip</label>
+
+            </div>
+<br>
+            <div class="price"><b>
+                <span>Subscribe For:</span>
+                <input type="checkbox" name="subscribe" id="1year">
+                <label for="1">1 year ($19.95)</label>
+                <input type="checkbox" name="subscribe" id="2year">
+                <label for="2">2 year ($35.00)</label>
+            </div><br>
+            <div class="data">
+                <div><b>Send me more information about:</div>
+                <input type="checkbox" name="input" id="">
+                <label for="computer">Computer-Zine</label><br>
+                <input type="checkbox" name="input" id="">
+                <label for="fishing">Fishing-Zine</label><br>
+                <input type="checkbox"name="input">
+                <label for="cat">Cat-O-Zine</label>
+
+            
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+</html>
